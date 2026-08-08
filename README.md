@@ -33,6 +33,29 @@ the `viewBox`. Existing generated icons are never deleted automatically. If an
 upstream file is removed or renamed, the old flat icon remains in this repository
 and in object storage.
 
+## Search index
+
+The workflows maintain one committed [`index.json`](index.json) at the repository
+root. It contains a flat, deterministic list with one entry per generated SVG:
+
+```json
+{
+  "collection": "fli",
+  "name": "access_time",
+  "style": "filled",
+  "terms": ["24", "access", "circle", "number", "time"],
+  "filetype": "svg",
+  "filename": "access_time_filled.svg",
+  "path": "icons/fli/access_time_filled.svg"
+}
+```
+
+Fluent search terms combine tokens from the icon name with the upstream name,
+description, keyword, and metaphor metadata. Material Symbols search terms come
+from the official underscore-separated icon name because its repository does not
+publish the richer tags used by the Google Fonts gallery. Each workflow replaces
+only its collection's index entries and preserves the other collection.
+
 ## GitHub setup
 
 Copy the committed example to the gitignored configuration file:

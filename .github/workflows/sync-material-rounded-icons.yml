@@ -96,6 +96,10 @@ jobs:
             --file-list .upload-material.txt \
             --prefix img/icons/msr
 
+      - name: Update search index
+        if: steps.upstream.outputs.changed == 'true'
+        run: python3 scripts/build_index.py msr
+
       - name: Commit generated icons and upstream state
         if: steps.upstream.outputs.changed == 'true'
         env:
@@ -106,7 +110,7 @@ jobs:
           printf '%s\n' "$MANIFEST" > .upstream/material-rounded.manifest
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add icons/msr .upstream/material-rounded.commit .upstream/material-rounded.manifest
+          git add icons/msr index.json .upstream/material-rounded.commit .upstream/material-rounded.manifest
           if git diff --cached --quiet; then
             exit 0
           fi
