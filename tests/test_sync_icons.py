@@ -2,7 +2,13 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.sync_icons import material_key, select_fluent, select_material, validate_svg
+from scripts.sync_icons import (
+    find_changed_outputs,
+    material_key,
+    select_fluent,
+    select_material,
+    validate_svg,
+)
 
 
 class SyncIconsTest(unittest.TestCase):
@@ -68,6 +74,22 @@ class SyncIconsTest(unittest.TestCase):
             icon.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"/>')
             with self.assertRaises(ValueError):
                 validate_svg(icon)
+
+    def test_only_new_or_content_changed_outputs_are_uploaded(self):
+        with tempfile.TemporaryDirectory() as root_name:
+            output = Path(root_name)
+            (output / "unchanged.svg").write_bytes(b"same")
+            (output / "modified.svg").write_bytes(b"new")
+            (output / "added.svg").write_bytes(b"new")
+            previous = {
+                "unchanged.svg": b"same",
+                "modified.svg": b"old",
+                "added.svg": None,
+            }
+            self.assertEqual(
+                find_changed_outputs(previous, output),
+                ["added.svg", "modified.svg"],
+            )
 
 
 if __name__ == "__main__":

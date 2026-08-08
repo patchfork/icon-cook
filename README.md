@@ -125,9 +125,13 @@ workflow or webhook sending `repository_dispatch`).
 Each workflow uses a sparse, blob-filtered checkout. It stores the last relevant
 upstream state under `.upstream/`, skips runs where the tracked tree or manifest is
 unchanged, and on later changes regenerates only affected logical icons. It uploads
-only that affected list, then commits the generated files and state. The state is
-committed only after all configured bucket uploads succeed, so a failed upload is
-retried on the next run.
+only generated SVGs whose optimized content is new or changed, then commits the
+generated files and state. For example, adding one new upstream logical icon
+processes and uploads that icon only. Adding a smaller Fluent variant that does not
+replace the selected output results in no upload. The initial bootstrap is the one
+exception: with no saved upstream state, it generates and uploads the complete
+collection. State is committed only after all configured bucket uploads succeed,
+so a failed upload is retried on the next run.
 
 ## Local use
 

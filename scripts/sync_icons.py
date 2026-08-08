@@ -80,10 +80,22 @@ def validate_svg(path: Path) -> None:
         raise ValueError(f"SVGO removed viewBox from {path}")
 
 
+def find_changed_outputs(previous: dict[str, bytes | None], output: Path) -> list[str]:
+    return sorted(
+        name
+        for name, old_content in previous.items()
+        if old_content != (output / name).read_bytes()
+    )
+
+
 def optimize(selected: dict[str, Path], output: Path, svgo_config: Path) -> list[str]:
     output.mkdir(parents=True, exist_ok=True)
     if not selected:
         return []
+    previous: dict[str, bytes | None] = {}
+    for name in selected:
+        destination = output / name
+        previous[name] = destination.read_bytes() if destination.is_file() else None
     with tempfile.TemporaryDirectory(prefix="icon-cook-") as temp_name:
         temporary = Path(temp_name)
         for name, source in selected.items():
@@ -95,7 +107,7 @@ def optimize(selected: dict[str, Path], output: Path, svgo_config: Path) -> list
         )
     for name in selected:
         validate_svg(output / name)
-    return sorted(selected)
+    return find_changed_outputs(previous, output)
 
 
 def main() -> None:
@@ -114,9 +126,12 @@ def main() -> None:
         if args.collection == "fluent"
         else select_material(args.source, changed)
     )
-    names = optimize(selected, args.output, args.svgo_config.resolve())
-    args.output_list.write_text("".join(f"{name}\n" for name in names))
-    print(f"Processed {len(names)} {args.collection} icons")
+    changed_names = optimize(selected, args.output, args.svgo_config.resolve())
+    args.output_list.write_text("".join(f"{name}\n" for name in changed_names))
+    print(
+        f"Processed {len(selected)} affected {args.collection} icons; "
+        f"{len(changed_names)} outputs changed"
+    )
 
 
 if __name__ == "__main__":
