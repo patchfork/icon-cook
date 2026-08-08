@@ -15,6 +15,9 @@ FLUENT_RE = re.compile(r"^ic_fluent_(?P<name>.+)_(?P<size>\d+)_(?P<style>[^_]+)\
 MATERIAL_RE = re.compile(
     r"^symbols/web/(?P<name>[^/]+)/materialsymbolsrounded/(?P<file>[^/]+)_24px\.svg$"
 )
+def fluent_size_rank(size: int) -> tuple[int, int]:
+    """Prefer the drawing nearest to 24px, choosing the larger size on a tie."""
+    return (abs(size - 24), -size)
 
 
 def read_changed(path: Path | None) -> list[str] | None:
@@ -37,7 +40,7 @@ def material_key(path: str | Path) -> str | None:
 
 def select_fluent(source: Path, changed: list[str] | None) -> dict[str, Path]:
     affected = None if changed is None else {key for item in changed if (key := fluent_key(item))}
-    selected: dict[tuple[str, str], tuple[int, Path]] = {}
+    selected: dict[tuple[str, str], tuple[tuple[int, int], Path]] = {}
     for candidate in source.glob("assets/*/SVG/*.svg"):
         match = FLUENT_RE.match(candidate.name)
         if not match:
@@ -46,8 +49,9 @@ def select_fluent(source: Path, changed: list[str] | None) -> dict[str, Path]:
         if affected is not None and key not in affected:
             continue
         size = int(match["size"])
-        if key not in selected or size > selected[key][0]:
-            selected[key] = (size, candidate)
+        rank = fluent_size_rank(size)
+        if key not in selected or rank < selected[key][0]:
+            selected[key] = (rank, candidate)
     return {f"{name}_{style}.svg": value[1] for (name, style), value in selected.items()}
 
 

@@ -6,7 +6,7 @@ from scripts.sync_icons import material_key, select_fluent, select_material, val
 
 
 class SyncIconsTest(unittest.TestCase):
-    def test_fluent_selects_largest_size_per_name_and_style(self):
+    def test_fluent_prefers_24_over_larger_sizes(self):
         with tempfile.TemporaryDirectory() as root_name:
             root = Path(root_name)
             svg = root / "assets" / "Access Time" / "SVG"
@@ -14,6 +14,7 @@ class SyncIconsTest(unittest.TestCase):
             for name in (
                 "ic_fluent_access_time_20_filled.svg",
                 "ic_fluent_access_time_24_filled.svg",
+                "ic_fluent_access_time_48_filled.svg",
                 "ic_fluent_access_time_20_regular.svg",
             ):
                 (svg / name).write_text("<svg/>")
@@ -21,6 +22,17 @@ class SyncIconsTest(unittest.TestCase):
             self.assertEqual(selected["access_time_filled.svg"].name,
                              "ic_fluent_access_time_24_filled.svg")
             self.assertIn("access_time_regular.svg", selected)
+
+    def test_fluent_falls_back_to_28_then_nearest_size(self):
+        with tempfile.TemporaryDirectory() as root_name:
+            root = Path(root_name)
+            svg = root / "assets" / "Access Time" / "SVG"
+            svg.mkdir(parents=True)
+            for size in (20, 28, 48):
+                (svg / f"ic_fluent_access_time_{size}_filled.svg").write_text("<svg/>")
+            selected = select_fluent(root, None)
+            self.assertEqual(selected["access_time_filled.svg"].name,
+                             "ic_fluent_access_time_28_filled.svg")
 
     def test_fluent_changed_file_regenerates_all_sizes_for_logical_icon(self):
         with tempfile.TemporaryDirectory() as root_name:

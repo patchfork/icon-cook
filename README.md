@@ -17,10 +17,14 @@ The Google input is the current **Material Symbols Rounded** collection shown by
 grade 0, and fill 0. Files with names such as `fill1`, `grad200`, or `wght700` are
 deliberately ignored.
 
-For Fluent, icons are grouped by logical name and style. The largest numeric size
-is selected, so `ic_fluent_access_time_24_filled.svg` wins over its 20px version
-and becomes `access_time_filled.svg`. Material Symbols no longer use the classic
-category directory, so
+For Fluent, icons are grouped by logical name and style. Selection favors drawings
+intended for typical 24–28px UI use, in this order: `24`, `28`, `20`, `32`, `16`,
+then `48`. Uncommon sizes fall back to the closest size to 24, preferring the larger
+candidate on a tie. Thus `ic_fluent_access_time_24_filled.svg` becomes
+`access_time_filled.svg` even when a 48px version exists.
+
+Material Symbols use a separate rule: always select the default-axis 24px optical
+size. Material Symbols no longer use the classic category directory, so
 `symbols/web/3d_rotation/materialsymbolsrounded/3d_rotation_24px.svg` becomes
 `3d_rotation.svg`.
 
