@@ -35,7 +35,7 @@ and in object storage.
 
 ## Search index
 
-The workflows maintain one committed [`index.json`](index.json) at the repository
+The workflow maintains one committed [`index.json`](index.json) at the repository
 root. It contains a flat, deterministic list with one entry per generated SVG:
 
 ```json
@@ -53,8 +53,8 @@ root. It contains a flat, deterministic list with one entry per generated SVG:
 Fluent search terms combine tokens from the icon name with the upstream name,
 description, keyword, and metaphor metadata. Material Symbols search terms come
 from the official underscore-separated icon name because its repository does not
-publish the richer tags used by the Google Fonts gallery. Each workflow replaces
-only its collection's index entries and preserves the other collection.
+publish the richer tags used by the Google Fonts gallery. Each collection job
+replaces only its collection's index entries and preserves the other collection.
 
 ## GitHub setup
 
@@ -124,37 +124,40 @@ gh secret set S3_CONFIGS --repo OWNER/REPOSITORY \
 
 > **GitHub secret-size warning:** an Actions secret is limited to 48 KB (49,152
 > bytes). Keep `config/s3-configs.json` below that limit. GitHub also warns
-> that structured secret values may not be redacted reliably. These workflows pass
+> that structured secret values may not be redacted reliably. The workflow passes
 > the JSON directly through an environment variable and never print it; avoid debug
 > tracing or otherwise echoing `S3_CONFIGS`.
 
 In **Settings → Actions → General → Workflow permissions**, allow GitHub Actions
-to read and write repository contents so the workflows can commit generated icons.
+to read and write repository contents so the workflow can commit generated icons.
 If `main` is protected, allow the Actions bot to push or adjust the final commit
 step to use your normal pull-request process.
 
 ## Automation behavior
 
-The two independent workflows run every six hours at staggered times and can also
-be started with `workflow_dispatch`. They do not run for pull requests or for
-ordinary pushes to this repository, avoiding self-trigger loops after their bot
-commits.
+One workflow runs daily at 3:00 AM in the `America/Chicago` timezone and can also
+be started with `workflow_dispatch`. GitHub's timezone-aware schedule keeps the
+local time at 3:00 AM across CST and CDT. It does not run for pull requests or for
+ordinary pushes to this repository, avoiding a self-trigger loop after its bot
+commit.
 
 GitHub Actions cannot subscribe directly to pushes in an unrelated public
 repository. Scheduled polling is therefore the default. A true immediate trigger
 would require cooperation from the upstream repository (for example, an upstream
 workflow or webhook sending `repository_dispatch`).
 
-Each workflow uses a sparse, blob-filtered checkout. It stores the last relevant
-upstream state under `.upstream/`, skips runs where the tracked tree or manifest is
-unchanged, and on later changes regenerates only affected logical icons. It uploads
-only generated SVGs whose optimized content is new or changed, then commits the
-generated files and state. For example, adding one new upstream logical icon
-processes and uploads that icon only. Adding a smaller Fluent variant that does not
-replace the selected output results in no upload. The initial bootstrap is the one
-exception: with no saved upstream state, it generates and uploads the complete
-collection. State is committed only after all configured bucket uploads succeed,
-so a failed upload is retried on the next run.
+The Fluent and Material jobs run concurrently using separate sparse, blob-filtered
+upstream checkouts. They store the last relevant upstream state under `.upstream/`,
+skip collections whose tracked tree or manifest is unchanged, and regenerate only
+affected logical icons. Each job uploads only generated SVGs whose optimized
+content is new or changed, then publishes a small merge artifact. After both jobs
+succeed, one final job merges both collections, updates the shared index, and makes
+a single Git commit, avoiding concurrent-push conflicts. For example, adding one
+new upstream logical icon processes and uploads that icon only. Adding a smaller
+Fluent variant that does not replace the selected output results in no upload. The
+initial bootstrap is the one exception: with no saved upstream state, it generates
+and uploads the complete collection. State is committed only after all configured
+bucket uploads succeed, so a failed upload is retried on the next run.
 
 ## Local use
 
