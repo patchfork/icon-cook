@@ -20,12 +20,12 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: Check out Icon Cook
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Check out upstream assets
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: microsoft/fluentui-system-icons
           ref: main
@@ -64,7 +64,7 @@ jobs:
 
       - name: Set up Node
         if: steps.upstream.outputs.changed == 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
 
@@ -125,7 +125,7 @@ jobs:
             --index _artifact/index.json
 
       - name: Publish Fluent results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: fluent-results
           path: _artifact
@@ -137,12 +137,12 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: Check out Icon Cook
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Check out upstream symbols
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: google/material-design-icons
           ref: master
@@ -182,7 +182,7 @@ jobs:
 
       - name: Set up Node
         if: steps.upstream.outputs.changed == 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
 
@@ -242,7 +242,7 @@ jobs:
             --index _artifact/index.json
 
       - name: Publish Material results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: material-results
           path: _artifact
@@ -255,18 +255,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out Icon Cook
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Download Fluent results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: fluent-results
           path: _results/fluent
 
       - name: Download Material results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: material-results
           path: _results/material
