@@ -1,0 +1,10 @@
+{
+  "name": "icon-cook",
+  "private": true,
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "devDependencies": {
+    "svgo": "4.0.1"
+  }
+}

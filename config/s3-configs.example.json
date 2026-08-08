@@ -1,0 +1,28 @@
+[
+  {
+    "name": "local",
+    "endpoint_url": "https://s3-compatible.example.com",
+    "region_name": "us-east-1",
+    "bucket_name": "local-icons",
+    "access_key_id": "replace-me",
+    "secret_access_key": "replace-me",
+    "addressing_style": "auto",
+    "signature_version": "s3v4"
+  },
+  {
+    "name": "review",
+    "endpoint_url": "https://s3-compatible.example.com",
+    "region_name": "us-east-1",
+    "bucket_name": "review-icons",
+    "access_key_id": "replace-me",
+    "secret_access_key": "replace-me"
+  },
+  {
+    "name": "production",
+    "endpoint_url": "https://s3-compatible.example.com",
+    "region_name": "us-east-1",
+    "bucket_name": "production-icons",
+    "access_key_id": "replace-me",
+    "secret_access_key": "replace-me"
+  }
+]
