@@ -154862,6 +154862,18 @@
     },
     {
       "collection": "msr",
+      "name": "display_add",
+      "style": "rounded",
+      "terms": [
+        "add",
+        "display"
+      ],
+      "filetype": "svg",
+      "filename": "display_add.svg",
+      "path": "icons/msr/display_add.svg"
+    },
+    {
+      "collection": "msr",
       "name": "display_external_input",
       "style": "rounded",
       "terms": [
@@ -155665,6 +155677,18 @@
       "filetype": "svg",
       "filename": "drive_folder_upload.svg",
       "path": "icons/msr/drive_folder_upload.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "drive_fusiontable",
+      "style": "rounded",
+      "terms": [
+        "drive",
+        "fusiontable"
+      ],
+      "filetype": "svg",
+      "filename": "drive_fusiontable.svg",
+      "path": "icons/msr/drive_fusiontable.svg"
     },
     {
       "collection": "msr",
@@ -161650,6 +161674,18 @@
       "filetype": "svg",
       "filename": "globe_book.svg",
       "path": "icons/msr/globe_book.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "globe_clock",
+      "style": "rounded",
+      "terms": [
+        "clock",
+        "globe"
+      ],
+      "filetype": "svg",
+      "filename": "globe_clock.svg",
+      "path": "icons/msr/globe_clock.svg"
     },
     {
       "collection": "msr",
@@ -185423,6 +185459,18 @@
       "filetype": "svg",
       "filename": "terminal_2.svg",
       "path": "icons/msr/terminal_2.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "terminal_add",
+      "style": "rounded",
+      "terms": [
+        "add",
+        "terminal"
+      ],
+      "filetype": "svg",
+      "filename": "terminal_add.svg",
+      "path": "icons/msr/terminal_add.svg"
     },
     {
       "collection": "msr",
