@@ -631,6 +631,30 @@
     },
     {
       "collection": "fli",
+      "name": "agents_person",
+      "style": "filled",
+      "terms": [
+        "agents",
+        "person"
+      ],
+      "filetype": "svg",
+      "filename": "agents_person_filled.svg",
+      "path": "icons/fli/agents_person_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "agents_person",
+      "style": "regular",
+      "terms": [
+        "agents",
+        "person"
+      ],
+      "filetype": "svg",
+      "filename": "agents_person_regular.svg",
+      "path": "icons/fli/agents_person_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "agents",
       "style": "regular",
       "terms": [
@@ -10589,6 +10613,28 @@
       "filetype": "svg",
       "filename": "autocorrect_regular.svg",
       "path": "icons/fli/autocorrect_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "autopilot",
+      "style": "filled",
+      "terms": [
+        "autopilot"
+      ],
+      "filetype": "svg",
+      "filename": "autopilot_filled.svg",
+      "path": "icons/fli/autopilot_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "autopilot",
+      "style": "regular",
+      "terms": [
+        "autopilot"
+      ],
+      "filetype": "svg",
+      "filename": "autopilot_regular.svg",
+      "path": "icons/fli/autopilot_regular.svg"
     },
     {
       "collection": "fli",
@@ -52317,6 +52363,32 @@
     },
     {
       "collection": "fli",
+      "name": "filmstrip_arrow_up",
+      "style": "filled",
+      "terms": [
+        "arrow",
+        "filmstrip",
+        "up"
+      ],
+      "filetype": "svg",
+      "filename": "filmstrip_arrow_up_filled.svg",
+      "path": "icons/fli/filmstrip_arrow_up_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "filmstrip_arrow_up",
+      "style": "regular",
+      "terms": [
+        "arrow",
+        "filmstrip",
+        "up"
+      ],
+      "filetype": "svg",
+      "filename": "filmstrip_arrow_up_regular.svg",
+      "path": "icons/fli/filmstrip_arrow_up_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "filmstrip",
       "style": "filled",
       "terms": [
@@ -52337,6 +52409,30 @@
       "filetype": "svg",
       "filename": "filmstrip_filled.svg",
       "path": "icons/fli/filmstrip_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "filmstrip_globe",
+      "style": "filled",
+      "terms": [
+        "filmstrip",
+        "globe"
+      ],
+      "filetype": "svg",
+      "filename": "filmstrip_globe_filled.svg",
+      "path": "icons/fli/filmstrip_globe_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "filmstrip_globe",
+      "style": "regular",
+      "terms": [
+        "filmstrip",
+        "globe"
+      ],
+      "filetype": "svg",
+      "filename": "filmstrip_globe_regular.svg",
+      "path": "icons/fli/filmstrip_globe_regular.svg"
     },
     {
       "collection": "fli",
@@ -81649,6 +81745,32 @@
       "filetype": "svg",
       "filename": "panel_left_regular.svg",
       "path": "icons/fli/panel_left_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "panel_left_tall",
+      "style": "filled",
+      "terms": [
+        "left",
+        "panel",
+        "tall"
+      ],
+      "filetype": "svg",
+      "filename": "panel_left_tall_filled.svg",
+      "path": "icons/fli/panel_left_tall_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "panel_left_tall",
+      "style": "regular",
+      "terms": [
+        "left",
+        "panel",
+        "tall"
+      ],
+      "filetype": "svg",
+      "filename": "panel_left_tall_regular.svg",
+      "path": "icons/fli/panel_left_tall_regular.svg"
     },
     {
       "collection": "fli",
@@ -116972,6 +117094,32 @@
       "filetype": "svg",
       "filename": "table_search_regular.svg",
       "path": "icons/fli/table_search_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "table_select_range",
+      "style": "filled",
+      "terms": [
+        "range",
+        "select",
+        "table"
+      ],
+      "filetype": "svg",
+      "filename": "table_select_range_filled.svg",
+      "path": "icons/fli/table_select_range_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "table_select_range",
+      "style": "regular",
+      "terms": [
+        "range",
+        "select",
+        "table"
+      ],
+      "filetype": "svg",
+      "filename": "table_select_range_regular.svg",
+      "path": "icons/fli/table_select_range_regular.svg"
     },
     {
       "collection": "fli",
