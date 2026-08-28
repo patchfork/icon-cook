@@ -149111,6 +149111,18 @@
     },
     {
       "collection": "msr",
+      "name": "bullet_chart",
+      "style": "rounded",
+      "terms": [
+        "bullet",
+        "chart"
+      ],
+      "filetype": "svg",
+      "filename": "bullet_chart.svg",
+      "path": "icons/msr/bullet_chart.svg"
+    },
+    {
+      "collection": "msr",
       "name": "bungalow",
       "style": "rounded",
       "terms": [
@@ -155330,6 +155342,19 @@
       "filetype": "svg",
       "filename": "domain_disabled.svg",
       "path": "icons/msr/domain_disabled.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "domain_disabled_check",
+      "style": "rounded",
+      "terms": [
+        "check",
+        "disabled",
+        "domain"
+      ],
+      "filetype": "svg",
+      "filename": "domain_disabled_check.svg",
+      "path": "icons/msr/domain_disabled_check.svg"
     },
     {
       "collection": "msr",
@@ -166872,6 +166897,18 @@
       "filetype": "svg",
       "filename": "list.svg",
       "path": "icons/msr/list.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "list_2",
+      "style": "rounded",
+      "terms": [
+        "2",
+        "list"
+      ],
+      "filetype": "svg",
+      "filename": "list_2.svg",
+      "path": "icons/msr/list_2.svg"
     },
     {
       "collection": "msr",
@@ -181325,6 +181362,19 @@
     },
     {
       "collection": "msr",
+      "name": "sim_card_lock",
+      "style": "rounded",
+      "terms": [
+        "card",
+        "lock",
+        "sim"
+      ],
+      "filetype": "svg",
+      "filename": "sim_card_lock.svg",
+      "path": "icons/msr/sim_card_lock.svg"
+    },
+    {
+      "collection": "msr",
       "name": "simulation",
       "style": "rounded",
       "terms": [
@@ -182340,6 +182390,20 @@
       "filetype": "svg",
       "filename": "speech_to_text.svg",
       "path": "icons/msr/speech_to_text.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "speech_to_text_2",
+      "style": "rounded",
+      "terms": [
+        "2",
+        "speech",
+        "text",
+        "to"
+      ],
+      "filetype": "svg",
+      "filename": "speech_to_text_2.svg",
+      "path": "icons/msr/speech_to_text_2.svg"
     },
     {
       "collection": "msr",
