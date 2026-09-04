@@ -150137,6 +150137,19 @@
     },
     {
       "collection": "msr",
+      "name": "car_seat_off",
+      "style": "rounded",
+      "terms": [
+        "car",
+        "off",
+        "seat"
+      ],
+      "filetype": "svg",
+      "filename": "car_seat_off.svg",
+      "path": "icons/msr/car_seat_off.svg"
+    },
+    {
+      "collection": "msr",
       "name": "car_spark",
       "style": "rounded",
       "terms": [
@@ -183630,6 +183643,19 @@
       "filetype": "svg",
       "filename": "stay_primary_portrait.svg",
       "path": "icons/msr/stay_primary_portrait.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "steering_wheel_cool",
+      "style": "rounded",
+      "terms": [
+        "cool",
+        "steering",
+        "wheel"
+      ],
+      "filetype": "svg",
+      "filename": "steering_wheel_cool.svg",
+      "path": "icons/msr/steering_wheel_cool.svg"
     },
     {
       "collection": "msr",
