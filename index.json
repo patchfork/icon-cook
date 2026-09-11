@@ -154487,6 +154487,19 @@
     },
     {
       "collection": "msr",
+      "name": "device_swoosh_star",
+      "style": "rounded",
+      "terms": [
+        "device",
+        "star",
+        "swoosh"
+      ],
+      "filetype": "svg",
+      "filename": "device_swoosh_star.svg",
+      "path": "icons/msr/device_swoosh_star.svg"
+    },
+    {
+      "collection": "msr",
       "name": "device_thermostat",
       "style": "rounded",
       "terms": [
@@ -169572,6 +169585,18 @@
     },
     {
       "collection": "msr",
+      "name": "mobile_tap",
+      "style": "rounded",
+      "terms": [
+        "mobile",
+        "tap"
+      ],
+      "filetype": "svg",
+      "filename": "mobile_tap.svg",
+      "path": "icons/msr/mobile_tap.svg"
+    },
+    {
+      "collection": "msr",
       "name": "mobile_text",
       "style": "rounded",
       "terms": [
@@ -174100,6 +174125,32 @@
       "filetype": "svg",
       "filename": "pentagon.svg",
       "path": "icons/msr/pentagon.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "people_size_decrease",
+      "style": "rounded",
+      "terms": [
+        "decrease",
+        "people",
+        "size"
+      ],
+      "filetype": "svg",
+      "filename": "people_size_decrease.svg",
+      "path": "icons/msr/people_size_decrease.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "people_size_increase",
+      "style": "rounded",
+      "terms": [
+        "increase",
+        "people",
+        "size"
+      ],
+      "filetype": "svg",
+      "filename": "people_size_increase.svg",
+      "path": "icons/msr/people_size_increase.svg"
     },
     {
       "collection": "msr",
@@ -182273,6 +182324,18 @@
     },
     {
       "collection": "msr",
+      "name": "spatial_gallery",
+      "style": "rounded",
+      "terms": [
+        "gallery",
+        "spatial"
+      ],
+      "filetype": "svg",
+      "filename": "spatial_gallery.svg",
+      "path": "icons/msr/spatial_gallery.svg"
+    },
+    {
+      "collection": "msr",
       "name": "spatial_speaker",
       "style": "rounded",
       "terms": [
@@ -182317,6 +182380,18 @@
       "filetype": "svg",
       "filename": "speaker_2.svg",
       "path": "icons/msr/speaker_2.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "speaker_3",
+      "style": "rounded",
+      "terms": [
+        "3",
+        "speaker"
+      ],
+      "filetype": "svg",
+      "filename": "speaker_3.svg",
+      "path": "icons/msr/speaker_3.svg"
     },
     {
       "collection": "msr",
@@ -185543,6 +185618,18 @@
       "filetype": "svg",
       "filename": "target.svg",
       "path": "icons/msr/target.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "target_check",
+      "style": "rounded",
+      "terms": [
+        "check",
+        "target"
+      ],
+      "filetype": "svg",
+      "filename": "target_check.svg",
+      "path": "icons/msr/target_check.svg"
     },
     {
       "collection": "msr",
