@@ -23419,6 +23419,32 @@
     },
     {
       "collection": "fli",
+      "name": "channel_arrow_right",
+      "style": "filled",
+      "terms": [
+        "arrow",
+        "channel",
+        "right"
+      ],
+      "filetype": "svg",
+      "filename": "channel_arrow_right_filled.svg",
+      "path": "icons/fli/channel_arrow_right_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "channel_arrow_right",
+      "style": "regular",
+      "terms": [
+        "arrow",
+        "channel",
+        "right"
+      ],
+      "filetype": "svg",
+      "filename": "channel_arrow_right_regular.svg",
+      "path": "icons/fli/channel_arrow_right_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "channel_dismiss",
       "style": "filled",
       "terms": [
@@ -34925,6 +34951,28 @@
       "filetype": "svg",
       "filename": "counter_regular.svg",
       "path": "icons/fli/counter_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "cowork",
+      "style": "filled",
+      "terms": [
+        "cowork"
+      ],
+      "filetype": "svg",
+      "filename": "cowork_filled.svg",
+      "path": "icons/fli/cowork_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "cowork",
+      "style": "regular",
+      "terms": [
+        "cowork"
+      ],
+      "filetype": "svg",
+      "filename": "cowork_regular.svg",
+      "path": "icons/fli/cowork_regular.svg"
     },
     {
       "collection": "fli",
@@ -54173,6 +54221,30 @@
     },
     {
       "collection": "fli",
+      "name": "flow_arrow",
+      "style": "filled",
+      "terms": [
+        "arrow",
+        "flow"
+      ],
+      "filetype": "svg",
+      "filename": "flow_arrow_filled.svg",
+      "path": "icons/fli/flow_arrow_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "flow_arrow",
+      "style": "regular",
+      "terms": [
+        "arrow",
+        "flow"
+      ],
+      "filetype": "svg",
+      "filename": "flow_arrow_regular.svg",
+      "path": "icons/fli/flow_arrow_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "flow_dot",
       "style": "filled",
       "terms": [
@@ -59919,6 +59991,32 @@
       "filetype": "svg",
       "filename": "hand_multiple_regular.svg",
       "path": "icons/fli/hand_multiple_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "hand_multiple_stack",
+      "style": "filled",
+      "terms": [
+        "hand",
+        "multiple",
+        "stack"
+      ],
+      "filetype": "svg",
+      "filename": "hand_multiple_stack_filled.svg",
+      "path": "icons/fli/hand_multiple_stack_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "hand_multiple_stack",
+      "style": "regular",
+      "terms": [
+        "hand",
+        "multiple",
+        "stack"
+      ],
+      "filetype": "svg",
+      "filename": "hand_multiple_stack_regular.svg",
+      "path": "icons/fli/hand_multiple_stack_regular.svg"
     },
     {
       "collection": "fli",
@@ -69231,6 +69329,30 @@
       "filetype": "svg",
       "filename": "lightbulb_regular.svg",
       "path": "icons/fli/lightbulb_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "lightbulb_sparkle",
+      "style": "filled",
+      "terms": [
+        "lightbulb",
+        "sparkle"
+      ],
+      "filetype": "svg",
+      "filename": "lightbulb_sparkle_filled.svg",
+      "path": "icons/fli/lightbulb_sparkle_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "lightbulb_sparkle",
+      "style": "regular",
+      "terms": [
+        "lightbulb",
+        "sparkle"
+      ],
+      "filetype": "svg",
+      "filename": "lightbulb_sparkle_regular.svg",
+      "path": "icons/fli/lightbulb_sparkle_regular.svg"
     },
     {
       "collection": "fli",
@@ -79874,6 +79996,39 @@
     },
     {
       "collection": "fli",
+      "name": "omega",
+      "style": "filled",
+      "terms": [
+        "omega"
+      ],
+      "filetype": "svg",
+      "filename": "omega_filled.svg",
+      "path": "icons/fli/omega_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "omega",
+      "style": "light",
+      "terms": [
+        "omega"
+      ],
+      "filetype": "svg",
+      "filename": "omega_light.svg",
+      "path": "icons/fli/omega_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "omega",
+      "style": "regular",
+      "terms": [
+        "omega"
+      ],
+      "filetype": "svg",
+      "filename": "omega_regular.svg",
+      "path": "icons/fli/omega_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "open",
       "style": "filled",
       "terms": [
@@ -80097,6 +80252,30 @@
       "filetype": "svg",
       "filename": "options_regular.svg",
       "path": "icons/fli/options_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "options_speaker",
+      "style": "filled",
+      "terms": [
+        "options",
+        "speaker"
+      ],
+      "filetype": "svg",
+      "filename": "options_speaker_filled.svg",
+      "path": "icons/fli/options_speaker_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "options_speaker",
+      "style": "regular",
+      "terms": [
+        "options",
+        "speaker"
+      ],
+      "filetype": "svg",
+      "filename": "options_speaker_regular.svg",
+      "path": "icons/fli/options_speaker_regular.svg"
     },
     {
       "collection": "fli",
@@ -107011,6 +107190,32 @@
     },
     {
       "collection": "fli",
+      "name": "slide_arrow_forward",
+      "style": "filled",
+      "terms": [
+        "arrow",
+        "forward",
+        "slide"
+      ],
+      "filetype": "svg",
+      "filename": "slide_arrow_forward_filled.svg",
+      "path": "icons/fli/slide_arrow_forward_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "slide_arrow_forward",
+      "style": "regular",
+      "terms": [
+        "arrow",
+        "forward",
+        "slide"
+      ],
+      "filetype": "svg",
+      "filename": "slide_arrow_forward_regular.svg",
+      "path": "icons/fli/slide_arrow_forward_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "slide_arrow_right",
       "style": "filled",
       "terms": [
@@ -127783,6 +127988,38 @@
     },
     {
       "collection": "fli",
+      "name": "text_number_list_ltr_rotate_90",
+      "style": "filled",
+      "terms": [
+        "90",
+        "list",
+        "ltr",
+        "number",
+        "rotate",
+        "text"
+      ],
+      "filetype": "svg",
+      "filename": "text_number_list_ltr_rotate_90_filled.svg",
+      "path": "icons/fli/text_number_list_ltr_rotate_90_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "text_number_list_ltr_rotate_90",
+      "style": "regular",
+      "terms": [
+        "90",
+        "list",
+        "ltr",
+        "number",
+        "rotate",
+        "text"
+      ],
+      "filetype": "svg",
+      "filename": "text_number_list_ltr_rotate_90_regular.svg",
+      "path": "icons/fli/text_number_list_ltr_rotate_90_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "text_number_list_rotate_270",
       "style": "filled",
       "terms": [
@@ -128006,6 +128243,38 @@
       "filetype": "svg",
       "filename": "text_number_list_rtl_rotate_270_regular.svg",
       "path": "icons/fli/text_number_list_rtl_rotate_270_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "text_number_list_rtl_rotate_90",
+      "style": "filled",
+      "terms": [
+        "90",
+        "list",
+        "number",
+        "rotate",
+        "rtl",
+        "text"
+      ],
+      "filetype": "svg",
+      "filename": "text_number_list_rtl_rotate_90_filled.svg",
+      "path": "icons/fli/text_number_list_rtl_rotate_90_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "text_number_list_rtl_rotate_90",
+      "style": "regular",
+      "terms": [
+        "90",
+        "list",
+        "number",
+        "rotate",
+        "rtl",
+        "text"
+      ],
+      "filetype": "svg",
+      "filename": "text_number_list_rtl_rotate_90_regular.svg",
+      "path": "icons/fli/text_number_list_rtl_rotate_90_regular.svg"
     },
     {
       "collection": "fli",
