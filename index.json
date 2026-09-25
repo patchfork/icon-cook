@@ -144795,6 +144795,18 @@
     },
     {
       "collection": "msr",
+      "name": "apps_plus",
+      "style": "rounded",
+      "terms": [
+        "apps",
+        "plus"
+      ],
+      "filetype": "svg",
+      "filename": "apps_plus.svg",
+      "path": "icons/msr/apps_plus.svg"
+    },
+    {
+      "collection": "msr",
       "name": "aq",
       "style": "rounded",
       "terms": [
@@ -150983,6 +150995,18 @@
     },
     {
       "collection": "msr",
+      "name": "chat_display",
+      "style": "rounded",
+      "terms": [
+        "chat",
+        "display"
+      ],
+      "filetype": "svg",
+      "filename": "chat_display.svg",
+      "path": "icons/msr/chat_display.svg"
+    },
+    {
+      "collection": "msr",
       "name": "chat_error",
       "style": "rounded",
       "terms": [
@@ -151950,6 +151974,19 @@
       "filetype": "svg",
       "filename": "closed_caption_disabled.svg",
       "path": "icons/msr/closed_caption_disabled.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "closed_caption_display",
+      "style": "rounded",
+      "terms": [
+        "caption",
+        "closed",
+        "display"
+      ],
+      "filetype": "svg",
+      "filename": "closed_caption_display.svg",
+      "path": "icons/msr/closed_caption_display.svg"
     },
     {
       "collection": "msr",
@@ -155342,6 +155379,18 @@
     },
     {
       "collection": "msr",
+      "name": "display_group",
+      "style": "rounded",
+      "terms": [
+        "display",
+        "group"
+      ],
+      "filetype": "svg",
+      "filename": "display_group.svg",
+      "path": "icons/msr/display_group.svg"
+    },
+    {
+      "collection": "msr",
       "name": "display_settings",
       "style": "rounded",
       "terms": [
@@ -155602,6 +155651,18 @@
       "filetype": "svg",
       "filename": "document_search.svg",
       "path": "icons/msr/document_search.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "document_share",
+      "style": "rounded",
+      "terms": [
+        "document",
+        "share"
+      ],
+      "filetype": "svg",
+      "filename": "document_share.svg",
+      "path": "icons/msr/document_share.svg"
     },
     {
       "collection": "msr",
@@ -156616,6 +156677,18 @@
       "filetype": "svg",
       "filename": "edit_document.svg",
       "path": "icons/msr/edit_document.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "edit_line",
+      "style": "rounded",
+      "terms": [
+        "edit",
+        "line"
+      ],
+      "filetype": "svg",
+      "filename": "edit_line.svg",
+      "path": "icons/msr/edit_line.svg"
     },
     {
       "collection": "msr",
@@ -159020,6 +159093,18 @@
     },
     {
       "collection": "msr",
+      "name": "filter_cancel",
+      "style": "rounded",
+      "terms": [
+        "cancel",
+        "filter"
+      ],
+      "filetype": "svg",
+      "filename": "filter_cancel.svg",
+      "path": "icons/msr/filter_cancel.svg"
+    },
+    {
+      "collection": "msr",
       "name": "filter_center_focus",
       "style": "rounded",
       "terms": [
@@ -159103,6 +159188,18 @@
       "filetype": "svg",
       "filename": "filter_none.svg",
       "path": "icons/msr/filter_none.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "filter_plus",
+      "style": "rounded",
+      "terms": [
+        "filter",
+        "plus"
+      ],
+      "filetype": "svg",
+      "filename": "filter_plus.svg",
+      "path": "icons/msr/filter_plus.svg"
     },
     {
       "collection": "msr",
@@ -161416,6 +161513,18 @@
     },
     {
       "collection": "msr",
+      "name": "function_search",
+      "style": "rounded",
+      "terms": [
+        "function",
+        "search"
+      ],
+      "filetype": "svg",
+      "filename": "function_search.svg",
+      "path": "icons/msr/function_search.svg"
+    },
+    {
+      "collection": "msr",
       "name": "functions",
       "style": "rounded",
       "terms": [
@@ -162645,6 +162754,18 @@
       "filetype": "svg",
       "filename": "group_auto.svg",
       "path": "icons/msr/group_auto.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "group_eye",
+      "style": "rounded",
+      "terms": [
+        "eye",
+        "group"
+      ],
+      "filetype": "svg",
+      "filename": "group_eye.svg",
+      "path": "icons/msr/group_eye.svg"
     },
     {
       "collection": "msr",
@@ -164842,6 +164963,18 @@
       "filetype": "svg",
       "filename": "import_contacts.svg",
       "path": "icons/msr/import_contacts.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "import_spark",
+      "style": "rounded",
+      "terms": [
+        "import",
+        "spark"
+      ],
+      "filetype": "svg",
+      "filename": "import_spark.svg",
+      "path": "icons/msr/import_spark.svg"
     },
     {
       "collection": "msr",
@@ -168508,6 +168641,18 @@
     },
     {
       "collection": "msr",
+      "name": "markdown_convert",
+      "style": "rounded",
+      "terms": [
+        "convert",
+        "markdown"
+      ],
+      "filetype": "svg",
+      "filename": "markdown_convert.svg",
+      "path": "icons/msr/markdown_convert.svg"
+    },
+    {
+      "collection": "msr",
       "name": "markdown_copy",
       "style": "rounded",
       "terms": [
@@ -168520,6 +168665,18 @@
     },
     {
       "collection": "msr",
+      "name": "markdown_document",
+      "style": "rounded",
+      "terms": [
+        "document",
+        "markdown"
+      ],
+      "filetype": "svg",
+      "filename": "markdown_document.svg",
+      "path": "icons/msr/markdown_document.svg"
+    },
+    {
+      "collection": "msr",
       "name": "markdown_paste",
       "style": "rounded",
       "terms": [
@@ -168529,6 +168686,18 @@
       "filetype": "svg",
       "filename": "markdown_paste.svg",
       "path": "icons/msr/markdown_paste.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "markdown_spark",
+      "style": "rounded",
+      "terms": [
+        "markdown",
+        "spark"
+      ],
+      "filetype": "svg",
+      "filename": "markdown_spark.svg",
+      "path": "icons/msr/markdown_spark.svg"
     },
     {
       "collection": "msr",
@@ -180793,6 +180962,19 @@
       "filetype": "svg",
       "filename": "shaved_ice.svg",
       "path": "icons/msr/shaved_ice.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "sheets_column_swap",
+      "style": "rounded",
+      "terms": [
+        "column",
+        "sheets",
+        "swap"
+      ],
+      "filetype": "svg",
+      "filename": "sheets_column_swap.svg",
+      "path": "icons/msr/sheets_column_swap.svg"
     },
     {
       "collection": "msr",
