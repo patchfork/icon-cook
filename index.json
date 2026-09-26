@@ -26966,6 +26966,32 @@
     },
     {
       "collection": "fli",
+      "name": "circle_image_off",
+      "style": "filled",
+      "terms": [
+        "circle",
+        "image",
+        "off"
+      ],
+      "filetype": "svg",
+      "filename": "circle_image_off_filled.svg",
+      "path": "icons/fli/circle_image_off_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "circle_image_off",
+      "style": "regular",
+      "terms": [
+        "circle",
+        "image",
+        "off"
+      ],
+      "filetype": "svg",
+      "filename": "circle_image_off_regular.svg",
+      "path": "icons/fli/circle_image_off_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "circle_image",
       "style": "regular",
       "terms": [
@@ -65675,6 +65701,32 @@
       "filetype": "svg",
       "filename": "keyboard_mouse_filled.svg",
       "path": "icons/fli/keyboard_mouse_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "keyboard_mouse_off",
+      "style": "filled",
+      "terms": [
+        "keyboard",
+        "mouse",
+        "off"
+      ],
+      "filetype": "svg",
+      "filename": "keyboard_mouse_off_filled.svg",
+      "path": "icons/fli/keyboard_mouse_off_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "keyboard_mouse_off",
+      "style": "regular",
+      "terms": [
+        "keyboard",
+        "mouse",
+        "off"
+      ],
+      "filetype": "svg",
+      "filename": "keyboard_mouse_off_regular.svg",
+      "path": "icons/fli/keyboard_mouse_off_regular.svg"
     },
     {
       "collection": "fli",
