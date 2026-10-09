@@ -168021,6 +168021,18 @@
     },
     {
       "collection": "msr",
+      "name": "looks_0",
+      "style": "rounded",
+      "terms": [
+        "0",
+        "looks"
+      ],
+      "filetype": "svg",
+      "filename": "looks_0.svg",
+      "path": "icons/msr/looks_0.svg"
+    },
+    {
+      "collection": "msr",
       "name": "looks_3",
       "style": "rounded",
       "terms": [
@@ -168066,6 +168078,42 @@
       "filetype": "svg",
       "filename": "looks_6.svg",
       "path": "icons/msr/looks_6.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "looks_7",
+      "style": "rounded",
+      "terms": [
+        "7",
+        "looks"
+      ],
+      "filetype": "svg",
+      "filename": "looks_7.svg",
+      "path": "icons/msr/looks_7.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "looks_8",
+      "style": "rounded",
+      "terms": [
+        "8",
+        "looks"
+      ],
+      "filetype": "svg",
+      "filename": "looks_8.svg",
+      "path": "icons/msr/looks_8.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "looks_9",
+      "style": "rounded",
+      "terms": [
+        "9",
+        "looks"
+      ],
+      "filetype": "svg",
+      "filename": "looks_9.svg",
+      "path": "icons/msr/looks_9.svg"
     },
     {
       "collection": "msr",
