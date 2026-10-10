@@ -27051,6 +27051,34 @@
     },
     {
       "collection": "fli",
+      "name": "circle_multiple_concentric_dashes",
+      "style": "filled",
+      "terms": [
+        "circle",
+        "concentric",
+        "dashes",
+        "multiple"
+      ],
+      "filetype": "svg",
+      "filename": "circle_multiple_concentric_dashes_filled.svg",
+      "path": "icons/fli/circle_multiple_concentric_dashes_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "circle_multiple_concentric_dashes",
+      "style": "regular",
+      "terms": [
+        "circle",
+        "concentric",
+        "dashes",
+        "multiple"
+      ],
+      "filetype": "svg",
+      "filename": "circle_multiple_concentric_dashes_regular.svg",
+      "path": "icons/fli/circle_multiple_concentric_dashes_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "circle_multiple_concentric",
       "style": "filled",
       "terms": [
@@ -67893,6 +67921,34 @@
     },
     {
       "collection": "fli",
+      "name": "layout_infographic_two_sparkle",
+      "style": "filled",
+      "terms": [
+        "infographic",
+        "layout",
+        "sparkle",
+        "two"
+      ],
+      "filetype": "svg",
+      "filename": "layout_infographic_two_sparkle_filled.svg",
+      "path": "icons/fli/layout_infographic_two_sparkle_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "layout_infographic_two_sparkle",
+      "style": "regular",
+      "terms": [
+        "infographic",
+        "layout",
+        "sparkle",
+        "two"
+      ],
+      "filetype": "svg",
+      "filename": "layout_infographic_two_sparkle_regular.svg",
+      "path": "icons/fli/layout_infographic_two_sparkle_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "layout_row_four",
       "style": "filled",
       "terms": [
@@ -93937,6 +93993,30 @@
       "filetype": "svg",
       "filename": "plug_disconnected_regular.svg",
       "path": "icons/fli/plug_disconnected_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "plug_puzzle",
+      "style": "filled",
+      "terms": [
+        "plug",
+        "puzzle"
+      ],
+      "filetype": "svg",
+      "filename": "plug_puzzle_filled.svg",
+      "path": "icons/fli/plug_puzzle_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "plug_puzzle",
+      "style": "regular",
+      "terms": [
+        "plug",
+        "puzzle"
+      ],
+      "filetype": "svg",
+      "filename": "plug_puzzle_regular.svg",
+      "path": "icons/fli/plug_puzzle_regular.svg"
     },
     {
       "collection": "fli",
