@@ -155798,6 +155798,19 @@
     },
     {
       "collection": "msr",
+      "name": "document_share_stack",
+      "style": "rounded",
+      "terms": [
+        "document",
+        "share",
+        "stack"
+      ],
+      "filetype": "svg",
+      "filename": "document_share_stack.svg",
+      "path": "icons/msr/document_share_stack.svg"
+    },
+    {
+      "collection": "msr",
       "name": "domain",
       "style": "rounded",
       "terms": [
@@ -175064,6 +175077,18 @@
     },
     {
       "collection": "msr",
+      "name": "person_eye",
+      "style": "rounded",
+      "terms": [
+        "eye",
+        "person"
+      ],
+      "filetype": "svg",
+      "filename": "person_eye.svg",
+      "path": "icons/msr/person_eye.svg"
+    },
+    {
+      "collection": "msr",
       "name": "person_filled",
       "style": "rounded",
       "terms": [
@@ -183351,6 +183376,19 @@
       "filetype": "svg",
       "filename": "speed_4.svg",
       "path": "icons/msr/speed_4.svg"
+    },
+    {
+      "collection": "msr",
+      "name": "speed_4_progress",
+      "style": "rounded",
+      "terms": [
+        "4",
+        "progress",
+        "speed"
+      ],
+      "filetype": "svg",
+      "filename": "speed_4_progress.svg",
+      "path": "icons/msr/speed_4_progress.svg"
     },
     {
       "collection": "msr",
