@@ -2533,6 +2533,38 @@
     },
     {
       "collection": "fli",
+      "name": "app_folder_hint",
+      "style": "filled",
+      "terms": [
+        "a",
+        "an",
+        "app",
+        "folder",
+        "hint",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "app_folder_hint_filled.svg",
+      "path": "icons/fli/app_folder_hint_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "app_folder_hint",
+      "style": "regular",
+      "terms": [
+        "a",
+        "an",
+        "app",
+        "folder",
+        "hint",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "app_folder_hint_regular.svg",
+      "path": "icons/fli/app_folder_hint_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "app_folder",
       "style": "light",
       "terms": [
@@ -15673,6 +15705,38 @@
     },
     {
       "collection": "fli",
+      "name": "box_question_mark",
+      "style": "filled",
+      "terms": [
+        "a",
+        "box",
+        "mark",
+        "package",
+        "question",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "box_question_mark_filled.svg",
+      "path": "icons/fli/box_question_mark_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "box_question_mark",
+      "style": "regular",
+      "terms": [
+        "a",
+        "box",
+        "mark",
+        "package",
+        "question",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "box_question_mark_regular.svg",
+      "path": "icons/fli/box_question_mark_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "box",
       "style": "regular",
       "terms": [
@@ -18777,6 +18841,26 @@
       "filetype": "svg",
       "filename": "calendar_cancel_filled.svg",
       "path": "icons/fli/calendar_cancel_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "calendar_cancel",
+      "style": "light",
+      "terms": [
+        "calendar",
+        "cancel",
+        "date",
+        "in",
+        "outlook",
+        "planning",
+        "scenarios",
+        "teams",
+        "time",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "calendar_cancel_light.svg",
+      "path": "icons/fli/calendar_cancel_light.svg"
     },
     {
       "collection": "fli",
@@ -32270,6 +32354,27 @@
     {
       "collection": "fli",
       "name": "color_line",
+      "style": "light",
+      "terms": [
+        "changes",
+        "color",
+        "edge",
+        "edit",
+        "for",
+        "in",
+        "line",
+        "mode",
+        "paint",
+        "palette",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "color_line_light.svg",
+      "path": "icons/fli/color_line_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "color_line",
       "style": "regular",
       "terms": [
         "changes",
@@ -34020,6 +34125,38 @@
       "filetype": "svg",
       "filename": "conference_room_regular.svg",
       "path": "icons/fli/conference_room_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "conference_room_sparkle",
+      "style": "filled",
+      "terms": [
+        "a",
+        "conference",
+        "meeting",
+        "room",
+        "sparkle",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "conference_room_sparkle_filled.svg",
+      "path": "icons/fli/conference_room_sparkle_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "conference_room_sparkle",
+      "style": "regular",
+      "terms": [
+        "a",
+        "conference",
+        "meeting",
+        "room",
+        "sparkle",
+        "with"
+      ],
+      "filetype": "svg",
+      "filename": "conference_room_sparkle_regular.svg",
+      "path": "icons/fli/conference_room_sparkle_regular.svg"
     },
     {
       "collection": "fli",
@@ -42941,6 +43078,34 @@
     },
     {
       "collection": "fli",
+      "name": "document_excel",
+      "style": "filled",
+      "terms": [
+        "an",
+        "document",
+        "excel",
+        "spreadsheet"
+      ],
+      "filetype": "svg",
+      "filename": "document_excel_filled.svg",
+      "path": "icons/fli/document_excel_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "document_excel",
+      "style": "regular",
+      "terms": [
+        "an",
+        "document",
+        "excel",
+        "spreadsheet"
+      ],
+      "filetype": "svg",
+      "filename": "document_excel_regular.svg",
+      "path": "icons/fli/document_excel_regular.svg"
+    },
+    {
+      "collection": "fli",
       "name": "document",
       "style": "filled",
       "terms": [
@@ -45843,6 +46008,34 @@
       "filetype": "svg",
       "filename": "document_pill_regular.svg",
       "path": "icons/fli/document_pill_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "document_powerpoint",
+      "style": "filled",
+      "terms": [
+        "a",
+        "document",
+        "powerpoint",
+        "presentation"
+      ],
+      "filetype": "svg",
+      "filename": "document_powerpoint_filled.svg",
+      "path": "icons/fli/document_powerpoint_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "document_powerpoint",
+      "style": "regular",
+      "terms": [
+        "a",
+        "document",
+        "powerpoint",
+        "presentation"
+      ],
+      "filetype": "svg",
+      "filename": "document_powerpoint_regular.svg",
+      "path": "icons/fli/document_powerpoint_regular.svg"
     },
     {
       "collection": "fli",
@@ -73905,6 +74098,28 @@
       "filetype": "svg",
       "filename": "mail_open_person_filled.svg",
       "path": "icons/fli/mail_open_person_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "mail_open_person",
+      "style": "light",
+      "terms": [
+        "delivery",
+        "email",
+        "envelope",
+        "general",
+        "in",
+        "mail",
+        "message",
+        "open",
+        "outlook",
+        "person",
+        "scenarios",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "mail_open_person_light.svg",
+      "path": "icons/fli/mail_open_person_light.svg"
     },
     {
       "collection": "fli",
