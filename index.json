@@ -3882,6 +3882,25 @@
     {
       "collection": "fli",
       "name": "arrow_bidirectional_left_right",
+      "style": "light",
+      "terms": [
+        "arrow",
+        "arrows",
+        "bidirectional",
+        "for",
+        "left",
+        "measuring",
+        "right",
+        "used",
+        "width"
+      ],
+      "filetype": "svg",
+      "filename": "arrow_bidirectional_left_right_light.svg",
+      "path": "icons/fli/arrow_bidirectional_left_right_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "arrow_bidirectional_left_right",
       "style": "regular",
       "terms": [
         "arrow",
@@ -3915,6 +3934,24 @@
       "filetype": "svg",
       "filename": "arrow_bidirectional_up_down_filled.svg",
       "path": "icons/fli/arrow_bidirectional_up_down_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "arrow_bidirectional_up_down",
+      "style": "light",
+      "terms": [
+        "arrow",
+        "bidirectional",
+        "down",
+        "for",
+        "height",
+        "measuring",
+        "up",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "arrow_bidirectional_up_down_light.svg",
+      "path": "icons/fli/arrow_bidirectional_up_down_light.svg"
     },
     {
       "collection": "fli",
@@ -7301,6 +7338,25 @@
     },
     {
       "collection": "fli",
+      "name": "arrow_repeat_all",
+      "style": "light",
+      "terms": [
+        "actions",
+        "all",
+        "arrow",
+        "loop",
+        "on",
+        "repeat",
+        "to",
+        "turn",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "arrow_repeat_all_light.svg",
+      "path": "icons/fli/arrow_repeat_all_light.svg"
+    },
+    {
+      "collection": "fli",
       "name": "arrow_repeat_all_off",
       "style": "filled",
       "terms": [
@@ -10645,6 +10701,30 @@
       "filetype": "svg",
       "filename": "autocorrect_regular.svg",
       "path": "icons/fli/autocorrect_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "autopilot_face",
+      "style": "filled",
+      "terms": [
+        "autopilot",
+        "face"
+      ],
+      "filetype": "svg",
+      "filename": "autopilot_face_filled.svg",
+      "path": "icons/fli/autopilot_face_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "autopilot_face",
+      "style": "regular",
+      "terms": [
+        "autopilot",
+        "face"
+      ],
+      "filetype": "svg",
+      "filename": "autopilot_face_regular.svg",
+      "path": "icons/fli/autopilot_face_regular.svg"
     },
     {
       "collection": "fli",
@@ -19286,6 +19366,33 @@
     {
       "collection": "fli",
       "name": "calendar_date",
+      "style": "light",
+      "terms": [
+        "a",
+        "calendar",
+        "date",
+        "examples",
+        "for",
+        "in",
+        "mock",
+        "need",
+        "not",
+        "only",
+        "outlook",
+        "planning",
+        "repo",
+        "teams",
+        "that",
+        "time",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "calendar_date_light.svg",
+      "path": "icons/fli/calendar_date_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "calendar_date",
       "style": "regular",
       "terms": [
         "a",
@@ -22339,6 +22446,32 @@
       "filetype": "svg",
       "filename": "card_ui_regular.svg",
       "path": "icons/fli/card_ui_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "card_ui_sparkle",
+      "style": "filled",
+      "terms": [
+        "card",
+        "sparkle",
+        "ui"
+      ],
+      "filetype": "svg",
+      "filename": "card_ui_sparkle_filled.svg",
+      "path": "icons/fli/card_ui_sparkle_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "card_ui_sparkle",
+      "style": "regular",
+      "terms": [
+        "card",
+        "sparkle",
+        "ui"
+      ],
+      "filetype": "svg",
+      "filename": "card_ui_sparkle_regular.svg",
+      "path": "icons/fli/card_ui_sparkle_regular.svg"
     },
     {
       "collection": "fli",
@@ -32302,6 +32435,33 @@
       "filetype": "svg",
       "filename": "color_light.svg",
       "path": "icons/fli/color_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "color_line_accent",
+      "style": "light",
+      "terms": [
+        "accent",
+        "background",
+        "changes",
+        "color",
+        "edge",
+        "edit",
+        "for",
+        "in",
+        "line",
+        "mode",
+        "paint",
+        "palette",
+        "reflection",
+        "specifically",
+        "the",
+        "ui",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "color_line_accent_light.svg",
+      "path": "icons/fli/color_line_accent_light.svg"
     },
     {
       "collection": "fli",
@@ -70150,6 +70310,35 @@
     {
       "collection": "fli",
       "name": "line_horizontal_4",
+      "style": "light",
+      "terms": [
+        "4",
+        "also",
+        "create",
+        "error",
+        "five",
+        "generic",
+        "have",
+        "horizontal",
+        "in",
+        "line",
+        "moments",
+        "navigation",
+        "note",
+        "one",
+        "scenarios",
+        "that",
+        "three",
+        "used",
+        "we"
+      ],
+      "filetype": "svg",
+      "filename": "line_horizontal_4_light.svg",
+      "path": "icons/fli/line_horizontal_4_light.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "line_horizontal_4",
       "style": "regular",
       "terms": [
         "4",
@@ -70189,6 +70378,20 @@
       "filetype": "svg",
       "filename": "line_horizontal_4_search_filled.svg",
       "path": "icons/fli/line_horizontal_4_search_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "line_horizontal_4_search",
+      "style": "light",
+      "terms": [
+        "4",
+        "horizontal",
+        "line",
+        "search"
+      ],
+      "filetype": "svg",
+      "filename": "line_horizontal_4_search_light.svg",
+      "path": "icons/fli/line_horizontal_4_search_light.svg"
     },
     {
       "collection": "fli",
@@ -100802,6 +101005,33 @@
       "filetype": "svg",
       "filename": "save_edit_filled.svg",
       "path": "icons/fli/save_edit_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "save_edit",
+      "style": "light",
+      "terms": [
+        "checkmark",
+        "circle",
+        "content",
+        "device",
+        "disk",
+        "edit",
+        "floppy",
+        "instead",
+        "metaphor",
+        "old",
+        "pencil",
+        "represent",
+        "save",
+        "saving",
+        "to",
+        "use",
+        "used"
+      ],
+      "filetype": "svg",
+      "filename": "save_edit_light.svg",
+      "path": "icons/fli/save_edit_light.svg"
     },
     {
       "collection": "fli",
@@ -131526,6 +131756,30 @@
       "filetype": "svg",
       "filename": "thinking_regular.svg",
       "path": "icons/fli/thinking_regular.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "threat_actor",
+      "style": "filled",
+      "terms": [
+        "actor",
+        "threat"
+      ],
+      "filetype": "svg",
+      "filename": "threat_actor_filled.svg",
+      "path": "icons/fli/threat_actor_filled.svg"
+    },
+    {
+      "collection": "fli",
+      "name": "threat_actor",
+      "style": "regular",
+      "terms": [
+        "actor",
+        "threat"
+      ],
+      "filetype": "svg",
+      "filename": "threat_actor_regular.svg",
+      "path": "icons/fli/threat_actor_regular.svg"
     },
     {
       "collection": "fli",
